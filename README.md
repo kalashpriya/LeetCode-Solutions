@@ -11,7 +11,7 @@ Welcome to my repository where I track my progress and solutions for problems fr
 
 ## 📝 Contents
 
-### 🟢 1. Two Sum
+### 1. Two Sum
 * **Category:** Data Structures & Algorithms
 * **Difficulty:** Easy
 * **Topics:** Array
@@ -25,7 +25,7 @@ You may assume that each input would have exactly one solution, and you may not 
   Output: [0, 1]
   Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ---
-### 🔴 2. Median of Two Sorted Arrays
+### 2. Median of Two Sorted Arrays
 
 * **Category:** Data Structures & Algorithms
 * **Difficulty:** Hard
