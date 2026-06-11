@@ -52,4 +52,21 @@ Output: 2.50000
 
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
+---
+### 3. Remove Duplicates using Two Pointer
 
+* **Category:** Data Structures & Algorithms
+* **Difficulty:** Easy
+* **Topics:** Array, Two Pointers
+
+#### **Problem Statement**
+Given an integer array `nums`, remove the duplicates such that each unique element appears only once.
+Consider the number of unique elements in `nums` to be `k`. After removing duplicates, return the number of unique elements `k`.
+The first `k` elements of `nums` should contain the unique numbers in sorted order. The remaining elements beyond index `k - 1` can be ignored.
+
+#### **Example 1**
+```text
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+```
+---
