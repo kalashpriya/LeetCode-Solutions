@@ -70,3 +70,33 @@ Input: nums = [0,0,1,1,1,2,2,3,3,4]
 Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 ```
 ---
+### 4. 3Sum
+
+* **Category:** Data Structures & Algorithms
+* **Difficulty:** Medium
+* **Topics:** Array
+
+#### **Problem Statement**
+Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+The solution set may contain duplicate triplets.
+
+#### **Example 1**
+```text
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[0,1,-1],[-1,-1,2],[-1,0,1]]
+
+Explanation:
+nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The triplets are [0,1,-1], [-1,0,1] and [-1,-1,2].
+```
+#### **Example 2**
+```text
+Input: nums = [0,1,1]
+Output: []
+
+Explanation:
+The only possible triplet does not sum up to 0.
+```
+---
